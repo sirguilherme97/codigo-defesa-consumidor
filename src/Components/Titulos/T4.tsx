@@ -1,11 +1,11 @@
 import { Popover } from '@headlessui/react'
 export function T4() {
     return (
-        <div className='w-screen px-20 mt-12 flex items-center justify-start '>
+        <div className='w-screen px-20 sm:px-8  mt-12 flex items-center justify-start '>
             <Popover>
                 <Popover.Button className='flex flex-col items-start justify-center'>
                     <h1 className='text-xl font-bold text-rep'>Titulo IV</h1>
-                    <p className='text-lg'>Do Sistema Nacional de Defesa do Consumidor</p>
+                    <p className='text-lg sm:-ml-12'>Do Sistema Nacional de Defesa do Consumidor</p>
                 </Popover.Button>
                 <Popover.Panel className='mt-4 ml-6'>
                     <p><strong>Art. 105.</strong> Integram o Sistema Nacional de Defesa do Consumidor (SNDC), os órgãos federais, estaduais, do Distrito Federal e municipais e as entidades privadas de defesa do consumidor.</p>

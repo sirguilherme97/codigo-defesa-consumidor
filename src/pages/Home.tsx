@@ -22,6 +22,6 @@ export function Home() {
       <T5 />
       <T6 />
       <Footer />
-    </div>
+    </div >
   )
 }

@@ -1,7 +1,7 @@
 import { Popover } from '@headlessui/react'
 export function T5() {
     return (
-        <div className='w-screen px-20 mt-12 flex items-center justify-start '>
+        <div className='w-screen px-20 sm:px-8  mt-12 flex items-center justify-start '>
             <Popover>
                 <Popover.Button className='flex flex-col items-start justify-center'>
                     <h1 className='text-xl font-bold text-rep'>Titulo V</h1>

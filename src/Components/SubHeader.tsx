@@ -3,7 +3,7 @@ import { MdVerifiedUser } from "react-icons/md";
 export function SubHeader() {
 
     return (
-        <div className='w-screen h-auto flex flex-col items-center justify-around '>
+        <div className='w-screen h-auto flex flex-col items-center justify-around px-8'>
             <strong><a href="https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=8078&ano=1990&ato=376UTRq1keFpWTab7" className="underline" target='_blank'>LEI Nº 8.078, DE 11 DE SETEMBRO DE 1990.</a></strong>
             <Popover>
                 <Popover.Button>
