@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <div className="static flex leading-relaxed flex-col items-center bottom-0 pb-8 gap-4 mt-12 px-20 py-4 w-screen  h-auto">
+        <div className="z-0 static flex leading-relaxed flex-col items-center bottom-0 pb-8 gap-4 mt-12 px-20 py-4 w-screen  h-auto">
             <h1 className="text-lg font-medium text-rep">Brasília, 11 de setembro de 1990; 169° da Independência e 102° da República.</h1>
             <div className="flex flex-col items-start text-zinc-600 font-medium">
                 <p>FERNANDO COLLOR</p>
