@@ -7,7 +7,7 @@ export function T3() {
                     <h1 className='text-xl font-bold text-rep'>Titulo III</h1>
                     <p className='text-lg'>Da Defesa do Consumidor em Juízo</p>
                 </Popover.Button>
-                <Popover.Panel className='mt-4 ml-6'>
+                <Popover.Panel className='mt-4 ml-6 sm:ml-0'>
                     <Popover>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo I</h1>
@@ -52,7 +52,7 @@ export function T3() {
                             <p><strong>Art. 90.</strong> Aplicam-se às ações previstas neste título as normas do Código de Processo Civil e da Lei n° 7.347, de 24 de julho de 1985, inclusive no que respeita ao inquérito civil, naquilo que não contrariar suas disposições.</p>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4'>
+                    <Popover className='mt-4 '>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo II</h1>
                             <p>Das Ações Coletivas Para a Defesa de Interesses Individuais Homogêneos</p>

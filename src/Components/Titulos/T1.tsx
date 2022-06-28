@@ -8,7 +8,7 @@ export function T1() {
                     <p className='text-lg'>Dos Direitos do Consumidor</p>
                 </Popover.Button>
                 <Popover.Panel>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo I</h1>
                             <p>Disposições Gerais</p>
@@ -29,7 +29,7 @@ export function T1() {
                             </div>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo II</h1>
                             <p>Da Política Nacional de Relações de Consumo</p>
@@ -72,7 +72,7 @@ export function T1() {
                             </div>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo III</h1>
                             <p>Dos Direitos Básicos do Consumidor</p>
@@ -101,7 +101,7 @@ export function T1() {
                             </div>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo IV</h1>
                             <p>Da Qualidade de Produtos e Serviços, da Prevenção e da Reparação dos Danos</p>
@@ -279,7 +279,7 @@ export function T1() {
                             </Popover>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo V</h1>
                             <p>Das Práticas Comerciais</p>
@@ -403,7 +403,7 @@ export function T1() {
                             </Popover>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo VI</h1>
                             <p>Disposições Gerais</p>
@@ -506,7 +506,7 @@ export function T1() {
                             </Popover>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo VI-A</h1>
                             <p>Da prevenção e do tratamento do superendividamento</p>
@@ -576,7 +576,7 @@ export function T1() {
                             </div>
                         </Popover.Panel>
                     </Popover>
-                    <Popover className='mt-4 ml-6'>
+                    <Popover className='mt-4 ml-6 sm:ml-0'>
                         <Popover.Button className='flex gap-4'>
                             <h1 className='font-bold text-rep'>Capítulo VII</h1>
                             <p>Das Sanções Administrativas</p>
