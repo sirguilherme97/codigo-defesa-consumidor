@@ -23,7 +23,7 @@ export function Search() {
                 </button>
             </div>
             <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
-                <Dialog.Panel className='bg-zinc-50 absolute top-0 left-0 w-screen h-screen py-0 leading-relaxed'>
+                <Dialog.Panel className='bg-zinc-50 overflow-x-hidden overflow-y-auto pb-12 absolute top-0 left-0 w-screen h-screen py-0 leading-relaxed'>
                     <Header />
                     <div className='flex flex-col gap-4 px-20 py-12'>
                         <Dialog.Title className='text-2xl font-medium text-zinc-800'>Pesquisar Artigo</Dialog.Title>
