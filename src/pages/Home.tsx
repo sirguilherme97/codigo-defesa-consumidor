@@ -1,3 +1,4 @@
+import { Footer } from "../Components/Footer";
 import { Header } from "../Components/Header";
 import { SubHeader } from "../Components/SubHeader";
 import { T1 } from "../Components/Titulos/T1";
@@ -11,7 +12,7 @@ import { T6 } from "../Components/Titulos/T6";
 export function Home() {
 
   return (
-    <div>
+    <div className="w-screen h-screen">
       <Header />
       <SubHeader />
       <T1 />
@@ -20,9 +21,7 @@ export function Home() {
       <T4 />
       <T5 />
       <T6 />
-      <div className="py-[200px]">
-
-      </div>
+      <Footer />
     </div>
   )
 }

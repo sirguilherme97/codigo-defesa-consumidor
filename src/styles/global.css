@@ -5,3 +5,7 @@
 a{
     @apply underline text-rep font-semibold
 }
+
+html{
+@apply overflow-x-hidden scroll-smooth
+}
