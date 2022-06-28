@@ -12,7 +12,7 @@ import { T6 } from "../Components/Titulos/T6";
 export function Home() {
 
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen text-zinc-800">
       <Header />
       <SubHeader />
       <T1 />
