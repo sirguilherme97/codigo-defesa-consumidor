@@ -20,6 +20,9 @@ export function Home() {
       <T4 />
       <T5 />
       <T6 />
+      <div className="py-[200px]">
+
+      </div>
     </div>
   )
 }
