@@ -7,7 +7,7 @@ import { MagnifyingGlass } from 'phosphor-react'
 
 export function Search() {
     const [busca, setBusca] = useState('');
-    let [isOpen, setIsOpen] = useState(true)
+    let [isOpen, setIsOpen] = useState(false)
     const lowerBusca = busca.toLowerCase()
     const ListaFiltrada = ListaArt.Lista.filter((Lista) => Lista.toLowerCase().includes(lowerBusca))
 
@@ -44,7 +44,7 @@ export function Search() {
                         </button>
                     </div>
                     <div className='px-8'>
-                        {busca == '' ? (
+                        {busca == 'art' || busca == '' || busca == 'a' || busca == 'ar' || busca == 'art ' ? (
                             <></>
                         ) : (
                             <div className="px-12 font-medium text-zinc-900">
