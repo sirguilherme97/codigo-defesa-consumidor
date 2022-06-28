@@ -1,5 +1,6 @@
 import { Footer } from "../Components/Footer";
 import { Header } from "../Components/Header";
+import { Search } from "../Components/Search";
 import { SubHeader } from "../Components/SubHeader";
 import { T1 } from "../Components/Titulos/T1";
 import { T2 } from "../Components/Titulos/T2";
@@ -15,6 +16,7 @@ export function Home() {
     <div className="w-screen h-screen text-zinc-800">
       <Header />
       <SubHeader />
+      <Search />
       <T1 />
       <T2 />
       <T3 />
