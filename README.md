@@ -1,4 +1,4 @@
-### Codigo de Defesa do Consumidor from <a href="https://cdc-brasil.vercel.app/">Site no AR<a/>
+### Codigo de Defesa do Consumidor -  <a href="https://cdc-brasil.vercel.app/">Site no AR<a/>
 <img src="./src/assets/cdc.png"/>
 
 #### Site desenvolvido para melhorar a acessibilidade do consumidor em acessar o código de defesa do consumidor
