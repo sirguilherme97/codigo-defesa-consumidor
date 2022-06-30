@@ -50,7 +50,7 @@ export function Search() {
                             <div className="px-12 font-medium text-zinc-900">
                                 <ul>
                                     {ListaFiltrada.map((lista: any) => (
-                                        <li className="mb-4 text-zinc-900 leading-relaxed" key={lista}>{lista}</li>
+                                        <li className="mb-4 text-zinc-900 leading-relaxed " key={lista}>{lista}</li>
                                     ))}
                                 </ul>
                             </div>
