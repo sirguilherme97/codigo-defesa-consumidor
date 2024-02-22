@@ -1,7 +1,12 @@
 import { Popover } from '@headlessui/react'
-export function T1() {
+import classNames from 'classnames'
+
+export function T1({ isDarkMode }:any) {
     return (
-        <div className='w-screen px-20 sm:px-8 mt-6 flex items-center justify-start '>
+        <div className={classNames('w-screen px-20 sm:px-8 mt-6 flex items-center justify-start ',{
+            'bg-zinc-900': isDarkMode,
+            'bg-zinc-50':!isDarkMode
+        })}>
             <Popover>
                 <Popover.Button className='flex flex-col items-start justify-center '>
                     <h1 className='text-xl font-bold text-rep'>Titulo I</h1>

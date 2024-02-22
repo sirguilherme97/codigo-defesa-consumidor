@@ -3,9 +3,10 @@ import { useState } from "react"
 import ListaArt from '../../listaBusca.json'
 import { Header } from './Header';
 import { MagnifyingGlass } from 'phosphor-react'
+import classNames from 'classnames';
 
 
-export function Search() {
+export function Search({isDarkMode}:any) {
     const [busca, setBusca] = useState('');
     let [isOpen, setIsOpen] = useState(false)
     const lowerBusca = busca.toLowerCase()
@@ -13,7 +14,10 @@ export function Search() {
 
 
     return (
-        <div className="flex items-center justify-start px-20 py-2">
+        <div className={classNames("flex items-center justify-start px-20 py-2",{
+            'bg-zinc-900 tex-zinc-50':isDarkMode,
+            'bg-zinc-50 text-zinc-900':!isDarkMode,
+        })}>
             <div>
                 <button
                     onClick={() => setIsOpen(true)}
@@ -23,11 +27,17 @@ export function Search() {
                 </button>
             </div>
             <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
-                <Dialog.Panel className='bg-zinc-50 z-[500] overflow-x-hidden overflow-y-auto pb-12 absolute top-0 left-0 w-screen h-screen py-0 leading-relaxed'>
+                <Dialog.Panel className={classNames(' z-[500] overflow-x-hidden overflow-y-auto pb-12 absolute top-0 left-0 w-screen h-screen py-0 leading-relaxed',{
+                    'bg-zinc-900 text-zinc-50':isDarkMode,
+                    'bg-zinc-50 text-zinc-900':!isDarkMode,
+                })}>
                     <Header />
                     <div className='flex flex-col gap-4 px-20 py-12'>
                         <Dialog.Title className='text-2xl font-medium text-zinc-900'>Pesquisar Artigo</Dialog.Title>
-                        <Dialog.Description className='text-zinc-700'>
+                        <Dialog.Description className={classNames('',{
+                             'bg-zinc-900 text-zinc-50':isDarkMode,
+                             'bg-zinc-50 text-zinc-700':!isDarkMode,
+                        })}>
                             Se você deseja buscar um artigo específico, indique-o na busca abaixo
                         </Dialog.Description>
                         <input
@@ -50,7 +60,12 @@ export function Search() {
                             <div className="px-12 font-medium text-zinc-900">
                                 <ul>
                                     {ListaFiltrada.map((lista: any) => (
-                                        <li className="mb-4 text-zinc-900 leading-relaxed" key={lista}>{lista}</li>
+                                        <li 
+                                        className={classNames("mb-4 leading-relaxed",{
+                                            'text-zinc-50 ':isDarkMode,
+                                            'text-zinc-900 ':!isDarkMode,
+                                        })}
+                                        key={lista}>{lista}</li>
                                     ))}
                                 </ul>
                             </div>
