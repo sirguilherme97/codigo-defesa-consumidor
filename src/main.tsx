@@ -10,6 +10,7 @@ import { Home } from './pages/Home'
 import './styles/global.css'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+    <Analytics/>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
